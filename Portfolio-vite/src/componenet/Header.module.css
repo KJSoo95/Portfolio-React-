@@ -1,0 +1,7 @@
+.headerbg{
+  background: url(../images/main_bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+}

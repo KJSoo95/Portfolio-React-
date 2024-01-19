@@ -1,8 +1,12 @@
+import classes from "./Header.module.css"
+
 const Header = () => {
   return (
-    <div>
-      <img src="./images/main_bg1.jpg" alt="main background"></img>
-    </div>
+    <>
+      <div className={classes.headerbg}>
+        <p>Welcome to Jisu's Portfolio</p>
+      </div>
+    </>
   );
 };
 
