@@ -1,0 +1,15 @@
+.navi {
+  position: fixed;
+  font-size: 1.2rem;
+  height: 30px;
+  width: 95vw;
+  margin-top: 10px;
+}
+.left {
+  position: absolute;
+  left: 20px;
+}
+.right {
+  position: absolute;
+  right: 0;
+}

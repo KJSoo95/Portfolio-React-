@@ -1,11 +1,10 @@
-import classes from "./Header.module.css"
+import classes from "./Header.module.css";
 
 const Header = () => {
   return (
     <>
-      <div className={classes.headerbg}>
-        <p>Welcome to Jisu's Portfolio</p>
-      </div>
+      <div class={classes.opacityImg}></div>
+      <div class={classes.homeHeading}>Welcome to Jisu's Portfolio</div>
     </>
   );
 };
