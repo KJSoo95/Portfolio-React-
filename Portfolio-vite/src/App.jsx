@@ -1,8 +1,11 @@
 import {} from "react";
 import "./App.css";
-import Header from "./componenet/Header";
-import Navi from "./componenet/Navi";
-import About from "./componenet/About";
+
+import Header from "./componenet/Section/Header/Header";
+import Navi from "./componenet/Section/Navigation/Navi";
+import About from "./componenet/Section/About/About";
+import Project from "./componenet/Section/Project/Project";
+import Skill from "./componenet/Section/Skill/Skill";
 
 function App() {
   return (
@@ -10,6 +13,8 @@ function App() {
       <Navi />
       <Header />
       <About />
+      <Project/>
+      <Skill/>
     </>
   );
 }

@@ -1,9 +1,7 @@
-
-
 .opacityImg {
-  background: url(../images/main_bg.jpg) no-repeat center center;
+  background: url(../../../images/main_bg1.jpg) no-repeat center center;
   background-size: cover;
-  width: 98vw;
+  width: 97vw;
   height: 50vh;
   margin-top: 20px;
 }

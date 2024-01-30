@@ -1,0 +1,11 @@
+.wrapper {
+  width: 20%;
+}
+.h2wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.image {
+  width: 40px;
+}

@@ -1,0 +1,4 @@
+.partWrapper{
+    display: flex;
+    flex-direction: row;
+}

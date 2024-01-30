@@ -1,0 +1,4 @@
+.aboutWrap{
+    display: flex;
+    flex-direction: row;
+}
