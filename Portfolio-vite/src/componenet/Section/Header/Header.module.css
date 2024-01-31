@@ -2,13 +2,13 @@
   background: url(../../../images/main_bg1.jpg) no-repeat center center;
   background-size: cover;
   width: 97vw;
-  height: 50vh;
+  height: 80vh;
   margin-top: 20px;
 }
 
 .homeHeading {
   position: absolute;
-  top: 20%;
+  top: 45%;
   left: 10%;
   /* white-space: nowrap; */
 }

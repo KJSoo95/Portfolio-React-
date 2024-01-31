@@ -6,10 +6,10 @@ const About = () => {
     <div>
       <h1>About jisu</h1>
       <div className={classes.aboutWrap}>
-        <div className="img-wrap">
-          <img src={profile} alt="profile image" />
+        <div className={classes.imgWrap}>
+          <img className = {classes.proimg}src={profile} alt="profile image" />
         </div>
-        <div className="para-wrap">
+        <div className={classes.paraWrap}>
           <h2>안녕하세요 프론트엔드 개발자 강지수입니다.</h2>
           <p>
             <b>사용자 중심</b>으로 누구나 <b>접근이 쉽고 편리한</b> 웹 페이지를
