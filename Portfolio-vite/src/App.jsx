@@ -1,4 +1,4 @@
-import {} from "react";
+import { createRef, useRef } from "react";
 import "./App.css";
 
 import Header from "./componenet/Section/Header/Header";
@@ -9,14 +9,37 @@ import Skill from "./componenet/Section/Skill/Skill";
 import Contact from "./componenet/Section/Contact/Contact";
 
 function App() {
+  const Aboutref = createRef();
+  const Projectref = createRef();
+  const Skillref = createRef();
+  const Contactref = createRef();
+
+  const onAboutClick = () => {
+    Aboutref.current.scrollIntoView({ behavior: "smooth" });
+  };
+  const onProjectClick = () => {
+    Projectref.current.scrollIntoView({ behavior: "smooth" });
+  };
+  const onSkillClick = () => {
+    Skillref.current.scrollIntoView({ behavior: "smooth" });
+  };
+  const onContactClick = () => {
+    Contactref.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
-      <Navi />
+      <Navi
+        onAboutClick={onAboutClick}
+        onProjectClick={onProjectClick}
+        onSkillClick={onSkillClick}
+        onContactClick={onContactClick}
+      />
       <Header />
-      <About />
-      <Project/>
-      <Skill/>
-      <Contact/>
+      <About ref={Aboutref} />
+      <Project ref={Projectref} />
+      <Skill ref={Skillref} />
+      <Contact ref={Contactref} />
     </>
   );
 }
