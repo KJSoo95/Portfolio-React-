@@ -1,17 +1,20 @@
-.aboutWrap{
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
+.aboutWrap {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
 }
-.imgWrap{
-    width: 25%;
+.imgWrap {
+  width: 25%;
 }
-.proimg{
-    position: relative;
-    top: 18%;
-    border-radius: 25px;
+.proimg {
+  position: relative;
+  top: 18%;
+  border-radius: 25px;
 }
-.paraWrap{
-    width: 75%;
-    text-align-last: left;
+.paraWrap {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
