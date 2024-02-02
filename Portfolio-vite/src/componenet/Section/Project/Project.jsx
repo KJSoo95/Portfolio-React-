@@ -16,5 +16,6 @@ const Project = forwardRef((props, ref) => {
     </div>
   );
 })
+Project.displayName = "Project";
 
 export default Project;
