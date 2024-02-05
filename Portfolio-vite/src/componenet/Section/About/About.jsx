@@ -1,5 +1,5 @@
 import { forwardRef } from "react";
-import profile from "../../../images/profile.jpg";
+import profile from "../../../images/myimg2.jpg";
 import classes from "./About.module.css";
 
 const About = forwardRef((props, ref) => {
