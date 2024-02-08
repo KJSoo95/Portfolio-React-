@@ -1,0 +1,16 @@
+.projectInfoWrap {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+}
+
+.infoWrap {
+  width: 50%;
+}
+
+.image {
+  height: 70%;
+}
+.part {
+  height: 30%;
+}
