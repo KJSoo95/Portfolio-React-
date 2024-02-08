@@ -16,9 +16,6 @@ const Navi = (props) => {
         <div onClick={props.onSkillClick}>Skill</div>
         <div onClick={props.onContactClick}>Contact</div>
       </div>
-      {/* <div className={classes.right} onClick={GotoTop}>
-        Front-End Developer
-      </div> */}
     </div>
   );
 };

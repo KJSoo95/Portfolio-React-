@@ -1,9 +1,15 @@
-.wrapper{
-    width: 33%;
+.ProjectPartWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.img{
-    width: 90%;
-    height: 50%;
-    border-radius: 25px;
+.wrapper {
+  height: 50%;
+}
+
+.img {
+  width: 90%;
+  height: 100%;
+  border-radius: 25px;
 }
