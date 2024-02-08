@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap");
 
 :root {
-  font-family: "Noto Serif KR", serif;
+  font-family: "Nanum Gothic", serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 1.2rem;
-  
 
   color-scheme: light dark;
   color: rgba(0, 0, 0, 0.87);
@@ -25,10 +24,12 @@ body {
   min-height: 100vh;
 }
 
- h2, h3, h4{
+h2,
+h3,
+h4 {
   margin: 0;
   padding: 0;
 }
-div{
+div {
   border: 1px solid #ac5a5a;
 }
