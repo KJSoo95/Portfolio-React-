@@ -7,6 +7,7 @@ import css from "../../../images/css.png";
 import js from "../../../images/js.png";
 import jq from "../../../images/jquery.png";
 import ret from "../../../images/react.png";
+import modcss from "../../../images/cssmodules.png";
 
 const ProjectInfo = (props) => {
   console.log(props.part);
@@ -20,6 +21,18 @@ const ProjectInfo = (props) => {
                 <source src={portfolio}></source>
               </video>
             </div>
+          </div>
+          <div className={classes.infoWrap}>
+            <div className={classes.projectDetail}>
+              <h3>프로젝트 소개</h3>
+              <p>
+                공부하면서 만든 프로젝트를 재구성하여 나의 포트폴리오로
+                만들어봤습니다. 그 동안 만들어 본 프로젝트를 바탕으로 만들어본
+                포트폴리오로 HTML, CSS, JavaScript, jQuery를 사용하여 만들었고
+                slick.js를 사용하여 프로젝트 슬라이드를 구현하였습니다.
+              </p>
+            </div>
+
             <div className={classes.part}>
               <p>링크</p>
               <a href="https://kjsoo95.github.io/Portfolio/" target="blank">
@@ -29,12 +42,6 @@ const ProjectInfo = (props) => {
               <a href="https://github.com/KJSoo95/Portfolio" target="blank">
                 Go to github
               </a>
-            </div>
-          </div>
-          <div className={classes.infoWrap}>
-            <div className={classes.projectDetail}>
-              <h3>프로젝트 소개</h3>
-              <p></p>
             </div>
 
             <div className={classes.skillwrap}>

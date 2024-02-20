@@ -9,7 +9,7 @@ h3 {
 }
 
 .image {
-  height: 70%;
+  height: 100%;
   display: flex;
   justify-content: center;
 }
@@ -19,7 +19,12 @@ h3 {
 }
 
 .projectDetail {
-  height: 70%;
+  height: 50%;
+  margin: 0 30px;
+}
+.projectDetail > p {
+  line-height: 2.2rem;
+  font-size: 1rem;
 }
 
 .skillwrap {
@@ -32,5 +37,9 @@ h3 {
 }
 
 .part {
-  height: 30%;
+  height: 20%;
+}
+.part > p {
+  margin-bottom: 0;
+  margin-top: 0;
 }
