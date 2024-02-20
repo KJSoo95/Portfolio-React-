@@ -1,10 +1,14 @@
+import { forwardRef, useState } from "react";
+import { createRef } from "react";
+
 import classes from "./Project.module.css";
 import ProjectPart from "./ProjectPart";
-import invest from "../../../images/invest1.png";
-import emotion from "../../../images/emotionDiary1.png";
-import { forwardRef, useState } from "react";
 import ProjectInfo from "./ProjectInfo";
-import { createRef } from "react";
+
+import project from "../../../images/port1.png";
+import emotion from "../../../images/emotionDiary1.png";
+
+
 
 const Project = forwardRef((props, ref) => {
   const [selectPart, setSelectPart] = useState(1);
@@ -20,7 +24,11 @@ const Project = forwardRef((props, ref) => {
       <h1>Project</h1>
       <div className={classes.projectWrap}>
         <div className={classes.wrapper} onClick={() => partHandler(1)}>
-          <ProjectPart image={invest} title="investment" />
+          <ProjectPart
+            image={project}
+            title="Portfolio"
+            description="강남아이티 아카데미에서 배운 HTML, CSS, JavaScript, jQuery를 사용하여 만들어본 포트폴리오로 slick.js"
+          />
         </div>
         <div className={classes.wrapper} onClick={() => partHandler(2)}>
           <ProjectPart
