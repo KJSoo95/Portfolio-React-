@@ -6,7 +6,7 @@ const Navi = (props) => {
   };
 
   return (
-    <div className={classes.navi}>
+    <nav className={classes.navi}>
       <div className={classes.left} onClick={GotoTop}>
         Kang ji su
       </div>
@@ -16,7 +16,7 @@ const Navi = (props) => {
         <div onClick={props.onSkillClick}>Skill</div>
         <div onClick={props.onContactClick}>Contact</div>
       </div>
-    </div>
+    </nav>
   );
 };
 

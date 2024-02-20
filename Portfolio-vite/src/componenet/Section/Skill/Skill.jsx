@@ -30,7 +30,7 @@ const React = {
 
 const Skill = forwardRef((props, ref) => {
   return (
-    <div ref={ref}>
+    <section ref={ref}>
       <h1>Skill</h1>
       <div className={classes.partWrapper}>
         <SkillPart
@@ -59,10 +59,10 @@ const Skill = forwardRef((props, ref) => {
           image={reactImg}
         />
       </div>
-    </div>
+    </section>
   );
 });
 
-Skill.displayName = "Skill"
+Skill.displayName = "Skill";
 
 export default Skill;

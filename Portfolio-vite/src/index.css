@@ -4,7 +4,7 @@
   font-family: "Nanum Gothic", serif;
   line-height: 1.5;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 
   color-scheme: light dark;
   color: rgba(0, 0, 0, 0.87);
@@ -24,11 +24,15 @@ body {
   min-height: 100vh;
 }
 
-h2, 
+h2,
 h4 {
   margin: 0;
   padding: 0;
 }
 div {
   border: 1px solid #ac5a5a;
+}
+
+a {
+  text-decoration: none;
 }

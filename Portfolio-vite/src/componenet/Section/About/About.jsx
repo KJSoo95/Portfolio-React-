@@ -1,10 +1,13 @@
 import { forwardRef } from "react";
-import profile from "../../../images/myimg2.jpg";
+import Section from "../../Common/Section";
+
 import classes from "./About.module.css";
+
+import profile from "../../../images/myimg2.jpg";
 
 const About = forwardRef((props, ref) => {
   return (
-    <div ref={ref}>
+    <Section ref={ref}>
       <h1>About</h1>
       <div className={classes.aboutWrap}>
         <div className={classes.imgWrap}>
@@ -33,7 +36,7 @@ const About = forwardRef((props, ref) => {
           </p>
         </div>
       </div>
-    </div>
+    </Section>
   );
 });
 About.displayName = "About";
