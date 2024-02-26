@@ -1,11 +1,14 @@
+import { forwardRef } from "react";
+
 import classes from "./Skill.module.css";
 import SkillPart from "./SkillPart";
+
 import htmlImg from "../../../images/html.png";
 import cssImg from "../../../images/css.png";
 import jsImg from "../../../images/js.png";
 import jqImg from "../../../images/jquery.png";
 import reactImg from "../../../images/react.png";
-import { forwardRef } from "react";
+import fireImg from "../../../images/firebase.jpg";
 
 const Html = {
   skill: "HTML",
@@ -25,6 +28,10 @@ const Jquery = {
 };
 const React = {
   skill: "React",
+  description: "",
+};
+const Firebase = {
+  skill: "Firebase",
   description: "",
 };
 
@@ -57,6 +64,11 @@ const Skill = forwardRef((props, ref) => {
           skill={React.skill}
           description={React.description}
           image={reactImg}
+        />
+        <SkillPart
+          skill={Firebase.skill}
+          description={Firebase.description}
+          image={fireImg}
         />
       </div>
     </section>

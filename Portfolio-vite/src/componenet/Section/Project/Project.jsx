@@ -7,6 +7,7 @@ import ProjectInfo from "./ProjectInfo";
 
 import project from "../../../images/port1.png";
 import emotion from "../../../images/emotionDiary1.png";
+
 import Section from "../../Common/Section";
 
 const Project = forwardRef((props, ref) => {
@@ -33,11 +34,11 @@ const Project = forwardRef((props, ref) => {
           <ProjectPart
             image={emotion}
             title="emotionalDiary"
-            onClick={() => partHandler(2)}
+            description="리액트를 배우면서 리액트에 익숙해지고 배운것을 더 활용 할 수 있도록 만들어 본 감정 일기장 . 일기를 작성하면서 그 날의 감정을 기록 할 수 있게 해놓았습니다."
           />
         </div>
         <div className={classes.wrapper} onClick={() => partHandler(3)}>
-          <ProjectPart title="Portfolio" />
+          <ProjectPart title="Portfolio" description = "전에 만들어 본 포트폴리오를 리액트를 이용하여 다시 만들어 본 포트폴리오로 Gamma사이트를 통해 목업을 만들어 놓고 그것과 유사하게 만들어 봤습니다." />
         </div>
       </div>
       <div ref={ProjectInforef}>
