@@ -9,3 +9,6 @@
 .image {
   width: 40px;
 }
+.wrapper > p {
+  padding: 10px;
+}
