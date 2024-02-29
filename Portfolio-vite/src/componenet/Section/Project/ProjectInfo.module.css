@@ -21,26 +21,26 @@ h3 {
 .projectDetail {
   height: 40%;
   margin: 0 30px;
+  display: contents;
 }
 .projectDetail > p {
   line-height: 2.2rem;
   font-size: 1rem;
-  transform: translateY(20%);
 }
 
 .part {
   height: 20%;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   border-top: 1px solid #b8b8b8;
 }
 
 .part > p {
-  margin-bottom: 10px;
+  margin-bottom: -5px;
   margin-top: 10px;
 }
 
 .skillwrap {
-  height: 30%;
+  height: 20%;
   border-top: 1px solid #b8b8b8;
 }
 
