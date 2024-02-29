@@ -20,7 +20,7 @@ const Project = forwardRef((props, ref) => {
   };
 
   return (
-    <Section ref={ref}>
+    <section ref={ref}>
       <h1>Project</h1>
       <div className={classes.projectWrap}>
         <div className={classes.wrapper} onClick={() => partHandler(1)}>
@@ -46,7 +46,7 @@ const Project = forwardRef((props, ref) => {
         {selectPart === 2 && <ProjectInfo part={"2"} />}
         {selectPart === 3 && <ProjectInfo part={"3"} />}
       </div>
-    </Section>
+    </section>
   );
 });
 Project.displayName = "Project";

@@ -2,6 +2,7 @@ import classes from "./ProjectInfo.module.css";
 
 import portfolio from "../../../images/Portfolio.mp4";
 import emotion from "../../../images/emotion.mp4";
+import pofol from "../../../images/pofol.mp4";
 import html from "../../../images/html.png";
 import css from "../../../images/css.png";
 import js from "../../../images/js.png";
@@ -31,7 +32,9 @@ const ProjectInfo = (props) => {
                 공부하면서 만든 프로젝트를 재구성하여 나의 포트폴리오로
                 만들어봤습니다. 그 동안 만들어 본 프로젝트를 바탕으로 만들어본
                 포트폴리오로 HTML, CSS, JavaScript, jQuery를 사용하여 만들었고
-                slick.js를 사용하여 프로젝트 슬라이드를 구현하였습니다.
+                slick.js를 사용하여 프로젝트 슬라이드를 구현하였습니다. 만들면서
+                뿌듯하였지만 아직 부족함을 느끼고 리액트를 공부하기
+                시작하였습니다.
               </p>
             </div>
 
@@ -106,7 +109,11 @@ const ProjectInfo = (props) => {
       {props.part === "3" && (
         <div className={classes.projectInfoWrap}>
           <div className={classes.infoWrap}>
-            <div className={classes.image}></div>
+            <div className={classes.image}>
+              <video width="95%" autoPlay muted loop>
+                <source src={pofol} />
+              </video>
+            </div>
           </div>
           <div className={classes.infoWrap}>
             <div className={classes.projectDetail}>
@@ -127,7 +134,10 @@ const ProjectInfo = (props) => {
                 Go to Page
               </a>
               <p>깃헙</p>
-              <a href="https://github.com/KJSoo95/Portfolio" target="blank">
+              <a
+                href="https://github.com/KJSoo95/Portfolio-React-"
+                target="blank"
+              >
                 Go to github
               </a>
             </div>

@@ -7,7 +7,7 @@ import profile from "../../../images/myimg2.jpg";
 
 const About = forwardRef((props, ref) => {
   return (
-    <Section ref={ref}>
+    <section ref={ref}>
       <h1>About</h1>
       <div className={classes.aboutWrap}>
         <div className={classes.imgWrap}>
@@ -36,7 +36,7 @@ const About = forwardRef((props, ref) => {
           </p>
         </div>
       </div>
-    </Section>
+    </section>
   );
 });
 About.displayName = "About";

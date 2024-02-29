@@ -9,6 +9,7 @@ import jsImg from "../../../images/js.png";
 import jqImg from "../../../images/jquery.png";
 import reactImg from "../../../images/react.png";
 import fireImg from "../../../images/firebase.jpg";
+import Section from "../../Common/Section";
 
 const Html = {
   skill: "HTML",
@@ -17,7 +18,7 @@ const Html = {
 };
 const Css = {
   skill: "CSS",
-  description: "모듈 CSS를 사용 가능하며 CSS로 애니메이션 구현도 가능함.",
+  description: "모듈 CSS를 사용 가능하며 CSS로 애니메이션 구현도 가능함. 반응형 웹 제작 경험이",
 };
 const Javascript = {
   skill: "Javascript",
@@ -39,7 +40,7 @@ const Firebase = {
 
 const Skill = forwardRef((props, ref) => {
   return (
-    <section ref={ref}>
+    <section ref={ref} className={classes.section}>
       <h1>Skill</h1>
       <div className={classes.partWrapper}>
         <SkillPart

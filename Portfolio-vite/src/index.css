@@ -23,16 +23,23 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+h1{
+  font-size: 2rem;
+  border-bottom: solid #b8b8b8;
+  padding-bottom: 20px;
+}
 
 h2,
 h4 {
   margin: 0;
   padding: 0;
 }
-div {
-  border: 1px solid #ac5a5a;
-}
 
 a {
   text-decoration: none;
+}
+section,footer {
+  width: 80%;
+  margin: auto;
+  /* border-top: solid #b8b8b8; */
 }
