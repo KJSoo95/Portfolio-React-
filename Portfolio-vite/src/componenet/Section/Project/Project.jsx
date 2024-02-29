@@ -7,8 +7,8 @@ import ProjectInfo from "./ProjectInfo";
 
 import project from "../../../images/port1.png";
 import emotion from "../../../images/emotionDiary1.png";
+import portfolioVite from "../../../images/portfolio-vite.png";
 
-import Section from "../../Common/Section";
 
 const Project = forwardRef((props, ref) => {
   const [selectPart, setSelectPart] = useState(1);
@@ -38,7 +38,11 @@ const Project = forwardRef((props, ref) => {
           />
         </div>
         <div className={classes.wrapper} onClick={() => partHandler(3)}>
-          <ProjectPart title="Portfolio" description = "전에 만들어 본 포트폴리오를 리액트를 이용하여 다시 만들어 본 포트폴리오로 Gamma사이트를 통해 목업을 만들어 놓고 그것과 유사하게 만들어 봤습니다." />
+          <ProjectPart
+            image={portfolioVite}
+            title="Portfolio"
+            description="전에 만들어 본 포트폴리오를 리액트를 이용하여 다시 만들어 본 포트폴리오로 Gamma사이트를 통해 목업을 만들어 놓고 그것과 유사하게 만들어 봤습니다."
+          />
         </div>
       </div>
       <div ref={ProjectInforef}>

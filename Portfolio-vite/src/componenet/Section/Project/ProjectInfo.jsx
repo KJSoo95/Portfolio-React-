@@ -130,7 +130,7 @@ const ProjectInfo = (props) => {
             </div>
             <div className={classes.part}>
               <p>링크</p>
-              <a href="https://kjsoo95.github.io/Portfolio/" target="blank">
+              <a href="https://kangs-portfolio-vite.firebaseapp.com/" target="blank">
                 Go to Page
               </a>
               <p>깃헙</p>
